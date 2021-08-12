@@ -1,24 +1,21 @@
-# README
+Monarch Monarchy is an app to view monarch butterfly sighting data - spring season only from 2016 to present - and to record personal sightings. Monarch sighting data is graciously scraped from www.journeynorth.com.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Dedicated to my parents. 
 
-Things you may want to cover:
+To use:
 
-* Ruby version
+Fork and clone repository. 
 
-* System dependencies
+Run bundle install. App uses Ruby version 3.0.1.
 
-* Configuration
+Run rails db:create.
 
-* Database creation
+Run rails db:migrate. 
 
-* Database initialization
+Run rails db:seed.
 
-* How to run the test suite
+Open frontend/index.html.
 
-* Services (job queues, cache servers, search engines, etc.)
+Start server with rails server or rails s.
 
-* Deployment instructions
-
-* ...
+Enjoy :)
